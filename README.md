@@ -1,7 +1,7 @@
 # AI Visually Impaired Assitance System
 AI system for helping visually impaired fully support Arabica language
 
-in this project, we  used computer vision and voice recognition techniques to guide visually impaired users to find the objects they need during their daily routines via object detection and recognition. Vocal user commands and responses are also generated vocally in Arabic. 
+This project was designed to help visually impaired users navigate their daily routines more easily. We used computer vision and voice recognition techniques to detect and recognize objects that the user needs, such as their phones or kitchen items. Additionally, vocal commands from the user were recognized in Arabic, with responses also generated vocally in Arabic for added convenience. This technology provides a much needed assistive tool for those with visual impairments so they can complete everyday tasks without difficulty or assistance from another person.
 the proposed method consists of 3 modules:
 * object detection
 * speech-to-text
