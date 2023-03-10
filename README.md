@@ -5,9 +5,12 @@ This project was designed to help visually impaired users navigate their daily r
 
 
 the system consists of 3 modules:
-* object detection
-* speech-to-text
-* and text-to-speech.
+* **object detection**
+* **speech-to-text**
+* **text-to-speech**
+
+![image](https://user-images.githubusercontent.com/67844129/224345124-7212ea32-9658-475c-ab10-d92d24df29b6.png)
+
 
 
 
