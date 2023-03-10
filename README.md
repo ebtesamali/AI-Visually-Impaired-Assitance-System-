@@ -8,6 +8,18 @@ the system consists of 3 modules:
 * object detection
 * speech-to-text
 * and text-to-speech.
+
+
+
+##Dataset
+
+In order to complete a project it is essential to have a dataset containing images to localize and detects different items. For this particular project, eight indoor objects were chosen for the datasets. To create these datasets, we scraped images from various sources and then manually annotated them in order to ensure accuracy. Each dataset contains at least 1000 images so that there are enough pictures for accurate results when the model is trained on them. 
+Scrapping and annotating thousands of pictures can be time-consuming; however, having such large amounts of data helps improve accuracy during training as well as reduce overfitting due to small sample sizes. This also allows us more flexibility when creating our models since we have plenty of data points that can be used in any combination or arrangement necessary depending on the task at hand. 
+
+
+while it may take extra effort upfront by scraping together all these photos into 8 separate datasets with at least 1000 images each, doing so ensures better performance from our models once they are trained. It also gives us greater control over what type of information goes into making up those sets since everything was collected manually instead relying solely upon automated methods Ultimately this means better end results overall with less time spent dealing with potential issues caused by lack of adequate image samples being available during development stages
+
+
   ## How does the system works?
   
   The system will first take an audio input from the user, which will be the name of the object that the user is looking for. By using the text-to-speech module the input from this module will be sent to object detection module, and the system will open a real-time camera to find what the user is looking for if the object is in the range of vision of the camera, the system will issue an alert that the object has been found. If the object is not in the range of the camera’s view the system will issue audio to change the camera's position so it can search for the object in another area.
