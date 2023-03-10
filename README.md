@@ -37,4 +37,9 @@ The 8 classes that we focused on are as follows:
 
   ### How does the system works?
   
-  The system will first take an audio input from the user, which will be the name of the object that the user is looking for. By using the text-to-speech module the input from this module will be sent to object detection module, and the system will open a real-time camera to find what the user is looking for if the object is in the range of vision of the camera, the system will issue an alert that the object has been found. If the object is not in the range of the camera’s view the system will issue audio to change the camera's position so it can search for the object in another area.
+ The system has two main functionalities which are Discovering and Searching.
+* **Discovering mode**: will explore the objects within the camera view and return the
+names of the objects that have been detected as an Arabic vocal output.
+* **Searching mode**: will receive the name of the object from the user as an Arabic vocal
+input, it will search for the object via the user’s camera and return the name of the
+object followed by an alarm to notify that the requested object has been found.
