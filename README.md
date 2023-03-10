@@ -43,3 +43,5 @@ names of the objects that have been detected as an Arabic vocal output.
 * **Searching mode**: will receive the name of the object from the user as an Arabic vocal
 input, it will search for the object via the user’s camera and return the name of the
 object followed by an alarm to notify that the requested object has been found.
+
+![image](https://user-images.githubusercontent.com/67844129/224355007-3af139b8-bf95-40b3-979c-616a3dbce508.png)
