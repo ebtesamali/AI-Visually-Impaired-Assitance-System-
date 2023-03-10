@@ -1,6 +1,8 @@
 # AI Visually Impaired Assitance System
 AI system for helping visually impaired fully support Arabica language
 
+
+### Introduction
 This project was designed to help visually impaired users navigate their daily routines more easily. We used computer vision and voice recognition techniques to detect and recognize objects that the user needs, such as their phones or kitchen items. Additionally, vocal commands from the user were recognized in Arabic, with responses also generated vocally in Arabic for added convenience. This technology provides a much needed assistive tool for those with visual impairments so they can complete everyday tasks without difficulty or assistance from another person.
 
 
@@ -45,3 +47,20 @@ input, it will search for the object via the user’s camera and return the name
 object followed by an alarm to notify that the requested object has been found.
 
 ![image](https://user-images.githubusercontent.com/67844129/224355007-3af139b8-bf95-40b3-979c-616a3dbce508.png)
+
+1. **Training Data**: The system will identify the 8 classes that we have trained the model
+on.
+2. **Model**: we used the weight of the model that we have  trained to make the
+object detection inference in the system.
+3. **Input Data**: We will be using our webcam to feed images at 25 frames per second to
+the trained model.
+4. **Speech-To-Text API**: for the search mode the system will take a voice input that
+specifies the name of the desired object, then send this voice to Google Speech -to-Text
+API.
+5. **Text-To-Speech API**: The class prediction of the objects detected in every frame will
+be string e.g. “cup” we will send this text to the Google Text-to-Speech API using the
+gTTS package.
+6. **Output**: We will also obtain the coordinates of the bounding box of every object
+detected in our frames, overlay the boxes on the objects detected and return the stream
+of frames as a video.
+The system mainly works by the interplay between the following modules:
