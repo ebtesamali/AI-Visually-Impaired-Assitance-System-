@@ -67,4 +67,13 @@ of frames as a video.
 
 
  ### Demo
+  search for specific object 
+  
+  
+  https://user-images.githubusercontent.com/67844129/235873893-79d3de8a-d639-4ec8-a373-d408c78a3189.mp4
+  
+  explore the enviroment 
+  
+  
+  https://user-images.githubusercontent.com/67844129/235875393-9bd7ac56-e29a-4c76-8323-66105364aa78.MP4
  
