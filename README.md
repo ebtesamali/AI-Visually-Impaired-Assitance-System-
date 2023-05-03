@@ -63,4 +63,8 @@ gTTS package.
 6. **Output**: We will also obtain the coordinates of the bounding box of every object
 detected in our frames, overlay the boxes on the objects detected and return the stream
 of frames as a video.
-The system mainly works by the interplay between the following modules:
+
+
+
+ ### Demo
+ 
